@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Moods</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="showcase ">
+<header>
+    <h2 class="logo">Moods</h2>
+    <div class="toggle " ></div>
+</header>
+<video src="./vid/video_2023-03-12_10-50-18.mp4" muted loop autoplay width="100%" ></video>
+
+<div class="overlay"> </div>  
+
+<div class="text">
+<h2>Delicious in town</h2>
+<h3> order now</h3>
+<p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Magnam veritatis exercitationem dolorum optio hic! Odit consequatur voluptatum alias. 
+    Error autem voluptates cupiditate dolorum maxime ipsa ad voluptatem sit aliquam iste?
+    </p>
+
+    <a href="https://www.facebook.com/messages/t/101196401435847" target="_blank">order</a>
+</div>
+
+<ul class="social">
+    <li><a href="https://www.facebook.com/MoodsQena" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+    <li><a href="https://www.instagram.com/moods.restaurant.cafe/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+    <li><a href="https://www.tiktok.com/@moods.cafe" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+</ul>
+
+
+    </section>
+
+    <div class="menu">
+
+<ul>
+    <li><a href="http://127.0.0.1:5500/ts1/index.html#" target="_blank">Home</a></li>
+    <li><a href="http://127.0.0.1:5500/ts1/menu.html#" target="_blank">Menu</a></li>
+    <li><a href="https://www.facebook.com/messages/t/101196401435847" target="_blank">Contact Us </a></li>
+</ul>
+</div>
+
+
+<script>
+const menuToggle = document.querySelector('.toggle')
+const showcase = document.querySelector('.showcase')
+
+menuToggle.addEventListener('click',  ()=> {
+    menuToggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+})
+
+
+</script>
+</body>
+</html>
